@@ -1,0 +1,25 @@
+/* pages/detail/detail.wxss */
+.wrap{
+   display: flex;
+   flex-direction: column;
+   padding: 20rpx;
+}
+.date{
+  color: #ccc;
+}
+.title{
+  text-align: center;
+  padding:20rpx;
+  font-size:20px;
+}
+.image{
+  text-align: center;
+  margin-left: 100rpx;
+}
+.image image{
+  width: 520rpx;
+  height: 460rpx;
+}
+.content{
+  text-indent: 2em;/*首行缩进*/
+}

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='image'>
+    <image src='{{img}}' width='20rpx'></image>
+  </view>
+  <view>{{name}}</view>
+  <view>红日初升红日初升红日初升红日初升红日初升红日初升红日初升红日初升红日初升红日初升红日初升红日初升红日初升红日初升红日初升</view>
+  <view>联系电话：</view>
+  <view>{{mobile}}</view>
+</view>

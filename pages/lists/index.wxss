@@ -1,0 +1,38 @@
+/* pages/lists/index.wxss */
+.warp {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+}
+navigator{
+  overflow: hidden;
+    margin: 20rpx;
+}
+.list{
+  margin-bottom: 20rpx;
+  height: 200rpx;
+  position: relative;
+}
+.image{
+  float: left;
+}
+.image image{
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+}
+.info{
+  float: left;
+  width: 480rpx;
+  height: 200rpx;
+  padding: 20rpx 0 0 20rpx;
+}
+.title{
+  font-size: 18px;
+}
+.date{
+  font-size: 16px;
+  color: #ccc;
+  bottom: 0;
+}

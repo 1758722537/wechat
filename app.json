@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/lists/index",
+    "pages/index/index",
+    "pages/aboutme/index",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/lists/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/aboutme/index",
+        "text": "关于"
+      }
+    ]
+  },
+  "debug":true
+  }

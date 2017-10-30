@@ -1,0 +1,19 @@
+<!-- 模板begin -->
+<view class='warp'>
+<template name="list">
+<navigator url='/pages/detail/detail?id={{id}}' hover-class='navigator-hover'>
+  <view class='image'>
+    <image src='{{img}}'></image>
+  </view>
+    <view class='info'>
+      <view class='title'>{{title}}</view>
+      <view class='date'>{{date}}</view>
+    </view>
+</navigator> 
+</template>
+</view>
+<!-- 模板end -->
+
+<view wx:for="{{newList}}" wx:for-item="news" class="list">
+  <template is="list" data="{{...news}}" />
+</view>

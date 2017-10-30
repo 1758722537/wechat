@@ -1,0 +1,4 @@
+/* pages/aboutme/index.wxss */
+.navigator-hover{
+  color: blue;
+}
